@@ -1,6 +1,7 @@
 body{
     background-color: rgb(238, 255, 0);
 }
+body {margin:0;}
 
 li {
     display: inline;
@@ -12,6 +13,9 @@ li {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
   }
   
   li {
@@ -37,4 +41,8 @@ li {
   
   .active {
     background-color: #04AA6D;
+  }
+
+  li {
+    border-right: 1px solid #bbb;
   }
